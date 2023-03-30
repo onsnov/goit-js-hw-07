@@ -60,7 +60,7 @@ function pictureGalleryMaker(galleryItems) {
         `;
     })
     .join("");
-  //  console.log(maker);
+  
 }
 
 
