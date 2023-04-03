@@ -13,15 +13,6 @@ galleryList.insertAdjacentHTML('beforeend', pictureMaker);
 
 
 
-
-
-// function onCloseModal(event) { 
-// // document.event.current.target.classList.remove("gallery__image");
-//   console.log(event);
-
-// }
-
-
 function onGalleryListClick(event) {
    event.preventDefault();
   
