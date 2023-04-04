@@ -34,8 +34,7 @@ function onGalleryListClick(event) {
       window.removeEventListener("keydown", onEscButtonClick);
       
     }
-    galleryList.removeEventListener("click", onGalleryListClick);
-  } 
+      } 
 }
 
 function pictureGalleryMaker(galleryItems) {
