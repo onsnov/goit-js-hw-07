@@ -29,8 +29,12 @@ function onGalleryListClick(event) {
   window.addEventListener("keydown", onEscButtonClick);
   function onEscButtonClick(event) {
     if (event.key === "Escape") {
-     instance.close();
+      instance.close();
+      // galleryList.removeEventListener("click", onGalleryListClick);
+      window.removeEventListener("keydown", onEscButtonClick);
+      
     }
+    galleryList.removeEventListener("click", onGalleryListClick);
   } 
 }
 
